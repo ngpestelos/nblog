@@ -119,7 +119,7 @@ body {
 
 #content {
   float: left;
-  min-height: 600px;
+  min-height: 550px;
   height: auto;
   width: 96%;
   border-right: 230px solid #eee;
