@@ -1,6 +1,0 @@
-{
-  "view" : "recent-entries",
-  "limit" : 25,
-  "descending" : true,
-  "type" : "newRows"
-}
