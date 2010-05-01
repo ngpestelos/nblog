@@ -1,7 +1,9 @@
 $.couch.app(function(app) {
-  $("#hello").evently(app.ddoc.evently.hello, app);
-  
+  $("#content").evently(app.ddoc.evently.content, app);
+  $("#content").pathbinder("recent", "/");
+  $("#content").pathbinder("new", "/new");
+
   $("#navbar").evently(app.ddoc.evently.navbar, app);
 
-  $("#content").evently(app.ddoc.evently.content, app);
+  $.pathbinder.begin("/");
 });
