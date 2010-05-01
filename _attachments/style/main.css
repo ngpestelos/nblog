@@ -1,1 +1,86 @@
-/* add styles here */
+/* Based on Srini G's Fluid Blue (http://srinig.com/wordpress/themes/fluid-blue/) */
+
+body {
+  font-size: 10px;
+  margin: 0;
+  font-family: 'Helvetica Neue', 'Lucida Grande', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Header */
+
+#header {
+  margin: 0;
+  padding: 2em 0;
+  height: 4.8em;
+  background: #237AB2;
+}
+
+#headertitle {
+  float: left; 
+  position: absolute;
+  top: 24px;
+  width: 209px;
+  left: 60px;
+  float: left; 
+}
+
+#headertitle h1 {
+  margin: 0
+}
+
+#headertitle h1 a {
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+
+#headertitle h1 a:hover {
+  text-decoration: none;
+}
+
+#headertitle p {
+  margin: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 1.1 em;
+}
+
+/* Wrapper */
+
+#wrapper {
+  margin: 0 5%;
+  padding-right: 230px;
+}
+
+/* Sidebar */
+
+#sidebar {
+  float: left;
+  width: 190px;
+  margin: 0 -230px 0 0;
+  padding: 20px;
+  background: #eee;
+}
+
+/* Content */
+
+#content {
+  float: left;
+  min-height: 600px;
+  height: auto;
+  width: 96%;
+  border-right: 230px solid #eee;
+  margin-right: -230px;
+  padding: 20px 4% 20px 0;
+}
+
+/* Footer */
+
+#footer {
+  clear: both;
+  padding: 10px;
+  border-top: 0.2em solid #555;
+  color: #eee;
+  background: #165279;
+}
