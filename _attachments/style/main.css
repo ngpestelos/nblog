@@ -46,6 +46,12 @@ body {
   font-size: 1.1 em;
 }
 
+/* Navigation */
+
+#nav {
+  margin: 0 5%;
+}
+
 /* Wrapper */
 
 #wrapper {
