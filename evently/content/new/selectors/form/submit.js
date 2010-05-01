@@ -9,6 +9,7 @@ function() {
     post : $("input[name=post]").val(),
     title : $("input[name=title]").val(),
     type : "entry",
+    tags : $("input[name=tags]").val().split(", "),
     created_at : new Date()
   };
 
