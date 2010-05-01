@@ -48,8 +48,54 @@ body {
 
 /* Navigation */
 
+#navbar {
+  border-top:0.1em solid #555;
+  border-bottom:0.1em solid #555;
+  background:#165279;
+  height: 2.3em;
+  margin: 0px;
+  padding: 0px;
+}
+
 #nav {
   margin: 0 5%;
+  padding: 0;
+  list-style: none;
+}
+
+#nav ul {
+  padding: 0.1em 0 0 0;
+  margin: 0;
+  list-style: none;
+  background: transparent;
+}
+
+#nav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#nav a {
+  color: #c6c8c9;
+  display: block;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+#nav a:hover {
+  background: #237ab2;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+#nav li {
+  float: left;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 0 2em 0 0;
 }
 
 /* Wrapper */
