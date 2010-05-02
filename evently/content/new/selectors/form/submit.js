@@ -6,7 +6,7 @@ function() {
   var widget = $(this);
   
   var newEntry = {
-    post : $("input[name=post]").val(),
+    post : $("textarea[name=post]").val(),
     title : $("input[name=title]").val(),
     type : "entry",
     tags : $("input[name=tags]").val().split(", "),
