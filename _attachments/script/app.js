@@ -3,6 +3,7 @@ $.couch.app(function(app) {
   $("#content").pathbinder("recent", "/");
   $("#content").pathbinder("new", "/new");
   $("#content").pathbinder("show", "/show/:id");
+  $("#content").pathbinder("edit", "/edit/:id");
 
   $("#navbar").evently(app.ddoc.evently.navbar, app);
 
