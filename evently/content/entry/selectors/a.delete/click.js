@@ -1,3 +1,5 @@
 function() {
-  alert("Are you sure?");
+  var ans = confirm("Are you sure?");
+  alert(ans);
+  return ans;
 }
