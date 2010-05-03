@@ -4,6 +4,7 @@ function(e, resp) {
   return {
     id: resp._id,
     title: resp.title,
-    post: markdown.encode(resp.post)
+    post: markdown.encode(resp.post),
+    tags: resp.tags.join(", ")
   };
 }
