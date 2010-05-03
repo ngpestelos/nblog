@@ -5,6 +5,8 @@ function(e, r) {
     title: r.title,
     id: r._id,
     post: markdown.encode(r.post),
-    tags: r.tags.join(", ")
+    tags: r.tags.join(", "),
+    created_at: $.prettyDate(r.created_at),
+    updated_at: $.prettyDate(r.updated_at)
   };
 }
