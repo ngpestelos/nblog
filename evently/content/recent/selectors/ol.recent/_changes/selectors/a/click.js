@@ -1,4 +1,5 @@
 function() {
+  /*
   var li = $(this).parents("li");
   var entry_id = li.attr("data-id");
   var app = $$(this).app;
@@ -8,5 +9,6 @@ function() {
       widget.trigger("show", [doc]);
     }
   }); 
-  return false;
+  return false;*/
+  return true;
 }
