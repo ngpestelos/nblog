@@ -11,7 +11,7 @@ function() {
       doc.updated_at = new Date();
       app.db.saveDoc(doc, {
         success: function() {
-          widget.trigger("recent", []);
+          widget.trigger("show", [{id: entry_id}]);
         }
       });
     }
