@@ -4,6 +4,7 @@ function(e, r) {
   var widget = $(this);
   app.db.openDoc(entry_id, {
     success: function(doc) {
+      $.log(doc);
       widget.trigger("entry", [doc]);
     }
   });

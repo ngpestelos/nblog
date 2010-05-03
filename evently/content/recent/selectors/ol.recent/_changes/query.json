@@ -1,4 +1,5 @@
 {
   "view" : "recent-entries",
-  "descending" : true
+  "descending" : true,
+  "limit" : 100
 }
