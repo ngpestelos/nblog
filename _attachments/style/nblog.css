@@ -1,0 +1,7 @@
+#content ol { margin: 2em 0; }
+
+ol.recent li { margin-bottom: 6px; }
+
+#content label { font-weight: bold; }
+#content input { font-size: 1.2em; padding: 8px; }
+#content textarea { font-size: 1.1em; padding: 10px; }
