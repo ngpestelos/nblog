@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: 'Helvetica Neue', 'Lucida Grande', sans-serif;
   letter-spacing: 1px;
+  line-height: 1.5em;
 }
 
 /* Header */
@@ -46,12 +47,6 @@ body {
   font-size: 1.1 em;
 }
 
-h1 { font-size: 2.6em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.6em; }
-h4 { font-size: 1.2em; }
-h5 { font-size: 1em; }
-h6 { font-size: 0.8em; }
 
 /* Navigation */
 
@@ -144,3 +139,5 @@ h6 { font-size: 0.8em; }
   background: #165279;
   font-size: 1.1em;
 }
+
+
