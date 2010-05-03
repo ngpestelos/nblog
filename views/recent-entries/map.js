@@ -1,5 +1,5 @@
 function(doc) {
   if (doc.type == "entry") {
-    emit(doc.created_at, doc)
+    emit(doc.updated_at, doc)
   }
 }
