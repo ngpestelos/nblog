@@ -8,3 +8,5 @@ ol.recent li { margin-bottom: 6px; }
 
 div.post { margin-top: 24px; }
 div.tags { margin-top: 24px; }
+
+#sidebar ul { list-style-type: none; padding-left: 10px; }
