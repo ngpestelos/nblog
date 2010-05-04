@@ -7,7 +7,7 @@ function() {
     success: function(doc) {
       doc.title = $("input[name=title]").val();
       doc.post = $("textarea[name=post]").val();
-      doc.tags = $("input[name=tags]").val().split(", ");
+      doc.tags = $("input[name=tags]").val().split(",");
       doc.updated_at = new Date();
       app.db.saveDoc(doc, {
         success: function() {
