@@ -4,6 +4,7 @@ $.couch.app(function(app) {
   $("#content").pathbinder("new", "/new");
   $("#content").pathbinder("show", "/show/:id");
   $("#content").pathbinder("edit", "/edit/:id");
+  $("#content").pathbinder("all", "/all");
 
   $("#navbar").evently(app.ddoc.evently.navbar, app);
 
