@@ -1,3 +1,3 @@
 function() {
-  $.scrollTo("#header", 500);
+  $.scrollTo("#navbar", 500);
 }
