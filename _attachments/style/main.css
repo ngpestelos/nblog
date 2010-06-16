@@ -8,46 +8,6 @@ body {
   line-height: 1.5em;
 }
 
-/* Header */
-
-#header {
-  margin: 0;
-  padding: 2em 0;
-  height: 2.4em;
-  background: #237AB2;
-}
-
-#headertitle {
-  float: left; 
-  position: absolute;
-  top: 24px;
-  width: 209px;
-  left: 60px;
-  float: left; 
-}
-
-#headertitle h1 {
-  margin: 0
-}
-
-#headertitle h1 a {
-  background: transparent;
-  color: #fff;
-  text-decoration: none;
-}
-
-#headertitle h1 a:hover {
-  text-decoration: none;
-}
-
-#headertitle p {
-  margin: 0;
-  background: transparent;
-  color: #fff;
-  font-size: 1.1 em;
-}
-
-
 /* Navigation */
 
 #navbar {
