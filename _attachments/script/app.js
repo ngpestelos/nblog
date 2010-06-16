@@ -7,8 +7,6 @@ $.couch.app(function(app) {
   $("#content").pathbinder("all", "/all");
   $("#content").pathbinder("showTagged", "/tag/:tag");
 
-  $("#navbar").evently(app.ddoc.evently.navbar, app);
-
   $("#sidebar").evently(app.ddoc.evently.sidebar, app);
 
   $.pathbinder.begin("/");
