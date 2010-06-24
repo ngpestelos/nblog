@@ -90,14 +90,9 @@ body {
 /* Footer */
 
 #footer {
-  padding-left: 10px;
-  padding-bottom: 10px;
   clear: both;
-  border-top: 0.2em solid #555;
-  color: #eee;
+  color: #c6c8c9;
   background: #165279;
-  font-size: 1.1em;
-  height: 2.4em;
+  height: 2.3em;
 }
-
 
