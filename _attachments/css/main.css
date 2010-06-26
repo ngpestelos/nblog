@@ -12,9 +12,15 @@ body {
 
 #navbar {
   background:#165279;
-  height: 2.3em;
+  height: 2.4em;
   margin: 0px;
   padding: 0px;
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  opacity: 0.5;
 }
 
 #nav {
@@ -85,13 +91,4 @@ body {
   border-right: 230px solid #eee;
   margin-right: -230px;
   padding: 20px 4% 20px 0;
-}
-
-/* Footer */
-
-#footer {
-  clear: both;
-  color: #c6c8c9;
-  background: #165279;
-  height: 2.3em;
 }
