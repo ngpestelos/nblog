@@ -1,7 +1,11 @@
 function(doc) {
+  var trim = function(s) {
+    return s.replace(/^\s+|\s+$/g, '');
+  }
+  
   if (doc.type == "entry") {
     for (var i in doc.tags) {
-      emit(doc.tags[i], 1);
+      emit(trim(doc.tags[i]), 1);
     }
   }
 }
