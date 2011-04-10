@@ -1,10 +1,12 @@
-function(e, r) {
-  var entry_id = r.id;
+function() {
+  /*
+  var id = $("#header h2").attr("data-id");
   var app = $$(this).app;
   var widget = $(this);
-  app.db.openDoc(entry_id, {
+  app.db.openDoc(id, {
     success: function(doc) {
       widget.trigger("editor", [doc]);
     }
   });
+  */
 }

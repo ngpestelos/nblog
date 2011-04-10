@@ -1,0 +1,48 @@
+body {
+  background-color: #f4f4f4;
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+#superheader {
+  height: 2.4em;
+  width: 100%;
+  background-color: black;
+}
+
+#superheader > div {
+  padding-top: 4px;
+  color: white;
+}
+
+#superheader a {
+  text-decoration: none;
+  color: white;
+}
+
+#superheader a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#new-entry, #edit-entry {
+  text-decoration: none;
+}
+
+#new-entry div, #edit-entry div {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#content {
+  margin-bottom: 10px;
+}
+
+#content input { font-size: 1.0em; padding: 8px; }

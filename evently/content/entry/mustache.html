@@ -1,26 +1,30 @@
-<h1>{{title}}</h1>
-
-<div class="entry" data-id='{{id}}'>
-  [<a class="edit" href="#/edit/{{id}}">Edit</a>]
-  &nbsp;&nbsp;
-  [<a class="delete" href="#">Delete</a>]
+<div id="header">
+  <div class="container">
+    <div class="span-20">
+      <h2 data-id={{id}}>{{title}}</h2>
+    </div>
+    <div class="span-4 last">
+      <a href="#/edit/{{id}}" id="edit-entry">
+        <div>Edit Entry</div>
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <hr />
+  </div>
 </div>
+<div id="detail">
+  <div class="container">
+    <div class="post">{{{post}}}</div>
 
-<div class="post">{{{post}}}</div>
+    <div class="tags"><b>Tags:</b> {{{tags}}}</div>
 
-<div class="tags"><b>Tags:</b> {{{tags}}}</div>
-
-<br />
-
-<div class="timestamps">
-  <b>Created:</b> {{{created_at}}} <br />
-  <b>Updated:</b> {{{updated_at}}} <br />
-</div>
-
-<br />
-
-<div class="entry" data-id='{{id}}'>
-  [<a class="edit" href="#/edit/{{id}}">Edit</a>]
-  &nbsp;&nbsp;
-  [<a class="delete" href="#">Delete</a>]
+    <br />
+    
+    <div class="timestamps">
+      <b>Created:</b> {{{created_at}}} <br />
+      <b>Updated:</b> {{{updated_at}}} <br />
+    </div>
+    
+  </div>
 </div>

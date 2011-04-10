@@ -1,6 +1,6 @@
 <div id="header">
   <div class="container">
-    <h2>Edit Entry</h2>
+    <h2>New Entry</h2>
   </div>
   <div class="container">
     <hr />
@@ -11,23 +11,22 @@
     <form>
       <p>
         <label for="title">Title <br/>
-          <input type="text" id="title" name="title" size="70" autocomplete="off" value="{{title}}" />
+          <input type="text" id="title" name="title" size="70" autocomplete="off" />
         </label>
       </p>
       <p>
         <label for="post">Post <br />
-          <textarea id="post" name="post" rows="20" cols="92">{{post}}</textarea>
+          <textarea id="post" name="post" rows="20" cols="92"></textarea>
         </label>
       </p>
       <p>
         <label for="tags">Tags <br />
-          <input type="text" id="tags" name="tags" size="70" value="{{tags}}" />
+          <input type="text" id="tags" name="tags" size="70" />
         </label>
       </p>
       <p>
-        <input type="submit" value="Save" /> or <a href="#/show/{{_id}}">Cancel</a>
+        <input type="submit" value="Save" /> or <a href="index.html">Cancel</a>
       </p>
-      <input type="hidden" name="data-id" value="{{_id}}" />
     </form>
   </div>
 </div>

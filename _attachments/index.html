@@ -2,37 +2,25 @@
 <html>
   <head>
     <title>nblog</title>
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" href="css/nblog.css" type="text/css">
+    <link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nblog.css" type="text/css">        
   </head>
   <body>
     <div id="top"></div>
-    <div id="navbar">
-      <ul id="nav">
-        <li><a id="home" href="#/">Home</a></li>
-        <li><a href="#/new">New Entry</a></li>
-      </ul>
+    <div id="superheader">
+      <div class="container">
+        <a href="./index.html">nblog</a>
+      </div>
     </div>
-    <div id="wrapper">
-      <div id="content"></div>
-      <div id="sidebar"></div>
-    </div>
+    <div id="content"></div>
+    <script src="/_utils/script/json2.js"></script>
+    <script src="/_utils/script/jquery.js"></script>
+    <script src="/_utils/script/jquery.couch.js"></script>
+    <script src="vendor/couchapp/jquery.couch.app.js"></script>
+    <script src="vendor/couchapp/jquery.couch.app.util.js"></script>
+    <script src="vendor/couchapp/jquery.evently.js"></script>
+    <script src="vendor/couchapp/jquery.pathbinder.js"></script>
+    <script src="vendor/couchapp/jquery.mustache.js"></script>
+    <script src="app.js"></script>
   </body>
-  <script src="/_utils/script/json2.js"></script>
-  <script src="/_utils/script/jquery.js"></script>
-  <script src="/_utils/script/jquery.couch.js"></script>
-  <script src="vendor/couchapp/jquery.couch.app.js"></script>
-  <script src="vendor/couchapp/jquery.couch.app.util.js"></script>
-  <script src="vendor/couchapp/jquery.evently.js"></script>
-  <script src="vendor/couchapp/jquery.pathbinder.js"></script>
-  <script src="vendor/couchapp/jquery.mustache.js"></script>
-  <script src="script/app.js"></script>
-  <script src="script/jquery.scrollTo-min.js"></script>
-  <script>
-    $(function() {
-      $("#home").click(function() {
-        $.scrollTo("#top", 500);
-      });
-    })
-  </script>
 </html>

@@ -1,4 +1,4 @@
-function(e, r) {
+function(e, r) {  
   var entry_id = r.id;
   var app = $$(this).app;
   var widget = $(this);

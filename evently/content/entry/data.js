@@ -5,7 +5,7 @@ function(e, r) {
     title: r.title,
     id: r._id,
     post: markdown.encode(r.post),
-    tags: r.tags.join(","),
+    tags: r.tags.join(", "),
     updated_at: $.prettyDate(r.updated_at)
   };
 
