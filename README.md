@@ -1,5 +1,8 @@
 # Not a Blog
 
-nblog is a CouchApp for storing blog entries. It provides a form and a simple layout.
+nblog is a simple CouchApp for storing blog entries. It provides a form and a layout engine.
 
-Tags are also supported.
+## Usage Requirements
+  * couchdb (tested on 1.0.2)
+  * couchapp
+  * futon
