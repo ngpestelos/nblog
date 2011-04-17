@@ -1,15 +1,16 @@
-function(e, r) {
-  var tag = r.tag;
+function(e, r) {  
   var app = $$(this).app;
-  var widget = $(this);
-  
-  app.db.view("nblog/tags-by-date", {
-    startkey: [tag],
-    endkey: [tag,[]],
-    include_docs: true,
-    success: function(res) {
+  var widget = $(this);  
+  var tag = r.t;
+
+  app.db.view("nblog/recent-tags", {
+    startkey : [tag],
+    endkey : [tag, []],
+    success : function(res) {
       widget.trigger("tagged", [res]);
+    },
+    error : function() {
+      alert("oops");
     }
   });
-  
 }

@@ -1,7 +1,17 @@
-<h1>Tagged Entries ({{tag}})</h1>
-
-<ol class='tagged'>
-{{#titles}}
-  <li><a href="#/show/{{id}}" class="tag">{{title}}</a></li>  
-{{/titles}}
-</ol>
+<div id="header">
+  <div class="container">
+    <h2>Tagged as '{{tag}}'</h2>
+  </div>
+  <div class="container">
+    <hr />
+  </div>
+</div>
+<div id="detail">
+  <div class="container">
+    <ul id="tagged">
+      {{#entries}}
+      <li><a href="#/show/{{id}}">{{title}}</a></li>
+      {{/entries}}
+    </ul>
+  </div>
+</div>

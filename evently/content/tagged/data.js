@@ -1,15 +1,15 @@
 function(e, r) {
-  var rows = r.rows.reverse(); // reverse sorting hack
-  var tag = r.rows[0].key[0];  
-  //$.log(tag);
-  
-  var titles = rows.map(function(t) {
-    return {
-      id: t.doc._id,
-      title: t.doc.title
-    }
+  $.log(r);
+  var entries = [];
+  var tag = r.rows[0].key[0];
+  r.rows.map(function(row) {
+    var e = {
+      title: row.value,
+      id: row.id
+    };
+    
+    entries.push(e);
   });
-  
-  return {"titles" : titles, "tag" : tag};
-  
+
+  return {"entries" : entries, "tag" : tag};
 }
