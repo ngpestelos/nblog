@@ -1,9 +1,9 @@
 $.couch.app(function(app) {
   $("#content").evently(app.ddoc.evently.content, app);
   $("#content").pathbinder("recent", "/");
-  $("#content").pathbinder("show", "/show/:id");
-  $("#content").pathbinder("edit", "/edit/:id");
-  $("#content").pathbinder("new-entry", "/new");
+  $("#content").pathbinder("showEntry", "/show/:id");
+  $("#content").pathbinder("editEntry", "/edit/:id");
+  $("#content").pathbinder("newEntry", "/new");
   
   $.pathbinder.begin("/");
 });

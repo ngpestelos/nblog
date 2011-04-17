@@ -1,10 +1,10 @@
 <div id="header">
   <div class="container">
     <div class="span-20">
-      <h2 data-id={{id}}>{{title}}</h2>
+      <h2 data-id={{_id}}>{{title}}</h2>
     </div>
     <div class="span-4 last">
-      <a href="#/edit/{{id}}" id="edit-entry">
+      <a href="#/edit/{{_id}}" id="edit-entry">
         <div>Edit Entry</div>
       </a>
     </div>
@@ -17,14 +17,13 @@
   <div class="container">
     <div class="post">{{{post}}}</div>
 
-    <div class="tags"><b>Tags:</b> {{{tags}}}</div>
+    <div class="tags"><b>Tags:</b> {{tags}}</div>
 
     <br />
     
     <div class="timestamps">
-      <b>Created:</b> {{{created_at}}} <br />
-      <b>Updated:</b> {{{updated_at}}} <br />
-    </div>
-    
+      <b>Created:</b> {{created}} <br />
+      <b>Updated:</b> {{updated}} <br />
+    </div>    
   </div>
 </div>
