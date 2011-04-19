@@ -59,11 +59,13 @@ div.post {
 
 input[name=title],
 input[name=tags] {
-  width: 475px;
+  width: 767px;
 }
 
 #post {
-  width: 480px;
+  font-size: 14px;
+  line-height: 1.5em;
+  width: 768px;
 }
 
 form p {
