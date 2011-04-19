@@ -47,7 +47,8 @@ body {
 
 #content input { font-size: 1.0em; padding: 8px; }
 
-#detail li {
+#recent li,
+#tagged li {
   font-size: 16px;
 }
 

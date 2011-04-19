@@ -44,7 +44,7 @@ function() {
       success : function(doc) {
         entry['_id'] = doc['_id'];
         entry['_rev'] = doc['_rev'];
-        entry['created'] = doc['created'];
+        entry['created'] = doc.hasOwnProperty('created_at') ? doc['created_at'] : doc['created'];
         entry['updated'] = tstamp;
         app.db.saveDoc(entry, {
           success: function() {

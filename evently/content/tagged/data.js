@@ -10,6 +10,8 @@ function(e, r) {
     
     entries.push(e);
   });
+  
+  entries.reverse();
 
   return {"entries" : entries, "tag" : tag};
 }
