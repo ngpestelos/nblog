@@ -72,3 +72,49 @@ input[name=tags] {
 form p {
   margin-bottom: 1em;
 }
+
+/* http://jsfiddle.net/secondplanet/ERW46/ */
+
+a.github {
+  font-size: 12px;
+  font-weight: bold;
+  padding:6px 12px 6px 10px;
+  color:#333;
+  text-shadow:1px 1px 0 #fff;
+  background:#f4f4f4;
+  background:-moz-linear-gradient(top, #f4f4f4 0%, #ececec 100%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#ececec));
+  background:linear-gradient(top, #f4f4f4 0%, #ececec 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d7d7', endColorstr='#c4c4c4',GradientType=0 );
+  background-color:#f4f4f4, #f4f4f4, #ececec, #ececec;
+  text-decoration:none;
+  border-style:solid;
+  border-width:1px;
+  border-color:#d4d4d4;
+  -webkit-border-radius:3px; /* WebKit */
+  -moz-border-radius:3px; /* Gecko */
+}
+
+a.github:hover {
+  color:#fff;
+  text-shadow:-1px -1px 0 rgba(0,0,0,0.3);
+  background:#599bdc;
+  background:-moz-linear-gradient(top, #599bdc 0%, #3072b3 100%); /* Gecko */
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#599bdc), color-stop(100%,#3072b3)); /* WebKit */
+  background:linear-gradient(top, #599bdc 0%, #3072b3 100%); /* others */
+  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d7d7', endColorstr='#c4c4c4',GradientType=0 ); /* IE */
+  background-color:#599bdc, #599bdc, #3072b3, #3072b3; /* HTMLayout */
+  border-color:#518cc6 #3e79b4 #2a65a0 #3e79b4; 
+}
+
+a.github:active {
+  color:#fff;
+  text-shadow:-1px -1px 0 rgba(0,0,0,0.3);
+  background:#2e70b1;
+  background:-moz-linear-gradient(top, #2e70b1 0%, #5a9cdd 100%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e70b1), color-stop(100%,#5a9cdd));
+  background:linear-gradient(top, #2e70b1 0%, #5a9cdd 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d7d7', endColorstr='#c4c4c4',GradientType=0 );
+  background-color:#2e70b1, #2e70b1, #5a9cdd, #5a9cdd;
+  border-color:#29659f #2b66a1 #518cc6 #2b66a1;
+}
